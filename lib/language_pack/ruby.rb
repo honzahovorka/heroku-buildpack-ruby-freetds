@@ -138,7 +138,7 @@ private
   end
 
   def system_paths
-    "/usr/local/bin:/usr/bin:/bin"
+    "/usr/local/bin:/usr/bin:/bin:$HOME/vendor/freetds/bin"
   end
 
   # the relative path to the bundler directory of gems
